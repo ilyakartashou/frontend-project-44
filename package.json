@@ -19,6 +19,7 @@
     "eslint-plugin-jest": "^27.9.0"
   },
   "dependencies": {
+    "jest": "^29.7.0",
     "readline-sync": "^1.4.10"
   }
 }

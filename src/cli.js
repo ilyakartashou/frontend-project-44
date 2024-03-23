@@ -1,4 +1,4 @@
-/* eslint-disable no-console, import/extensions */
+/* eslint-disable no-console */
 import readlineSync from 'readline-sync';
 
 export const questionToUser = () => {

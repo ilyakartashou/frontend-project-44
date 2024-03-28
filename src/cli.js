@@ -1,11 +1,5 @@
-/* eslint-disable no-console */
-import readlineSync from 'readline-sync';
+/* eslint-disable no-console, import/extensions, no-param-reassign */
 
-export const questionToUser = () => {
-  const username = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${username}`);
-};
-
-export default () => {
+export const greeting = () => {
   console.log('Welcome to the Brain Games!');
 };

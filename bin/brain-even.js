@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* eslint-disable no-console, import/extensions */
-import { startEvenGame } from '../src/even.js';
+import playGames from '../src/index.js';
+import { instructionsToUserEven, randomNumberEven, correctAnswerEven } from '../src/even.js';
 
-// greeting();
-startEvenGame();
+playGames(instructionsToUserEven, randomNumberEven, correctAnswerEven);

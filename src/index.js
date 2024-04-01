@@ -15,7 +15,7 @@ export default (instructionsToUser, randomNumber, correctAnswer) => {
     const userAnswer = readlineSync.question('Your answer: ');
     if (correctAnswer(randomNum) === userAnswer) {
       console.log('Correct!');
-    } else if (correctAnswer(randomNum) !== userAnswer) {
+    } else {
       console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer(randomNum)}.\nLet's try again, ${userName}`);
       return;
     }

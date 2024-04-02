@@ -7,9 +7,11 @@
 *I wont to present you my first project wich I created all by myself..*
 *I hope you will find my coding uselfull!*
 
-<p>  Launched by the console command **brain-even**.</p>
-<p>  In this game you need to recognize even numbers.</p>
-<p>  If the proposed number is even, answer "yes", otherwise answer "no.</p>
+  <p>Launched by the console command **brain-even**.</p>
+  <p>  In this game you need to recognize even numbers.</p>
+  <p>If the proposed number is even, answer "yes", otherwise answer "no.</p>
+
+
 ## Asciinema for brain-even-game
 [![asciicast](https://asciinema.org/a/650141.svg)](https://asciinema.org/a/650141)
 

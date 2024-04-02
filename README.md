@@ -4,6 +4,8 @@
 
 ## Welcome to the brain-games!
 
+# Install it with ```install```
+
 *I wont to present you my first project wich I created all by myself..*
 *I hope you will find my coding uselfull!*
 

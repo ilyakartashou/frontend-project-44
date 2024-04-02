@@ -2,21 +2,22 @@
 import readlineSync from 'readline-sync';
 import greeting from './cli.js';
 
-export default (instructionsToUser, randomNumber, correctAnswer) => {
+export default (instructionsToUser, generateLogik) => {
   greeting();
+
   const userName = readlineSync.question('May I have your name?');
   console.log(`Hello, ${userName}`);
   const rondsCount = 3;
+
   console.log(`${instructionsToUser}`);
   for (let i = 0; i < rondsCount; i += 1) {
-    const randomNum = randomNumber();
-    console.log(`Question: ${randomNum}`);
-    console.log(`${randomNum}`);
+    const [correctAnswer, question] = generateLogik();
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (correctAnswer(randomNum) === userAnswer) {
+    if (correctAnswer === userAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer(randomNum)}.\nLet's try again, ${userName}`);
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${userName}`);
       return;
     }
   }

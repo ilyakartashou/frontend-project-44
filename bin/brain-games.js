@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 /* eslint-disable no-console, import/extensions */
-import greeting from '../src/cli.js';
+//import greeting from '../src/cli.js';
 
-//greeting();
+console.log('Welcome to the Brain Games!')

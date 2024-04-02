@@ -23,6 +23,6 @@ brain-prime:
 	node/bin/brain-prime.js
 
 brain-games:
-	node bin/brain-games.js
+	node/bin/brain-games.js
 
 

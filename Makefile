@@ -4,9 +4,6 @@ make lint:
 install:
 	npm ci
 
-brain-games:
-	node/bin/brain-games.js
-	
 brain-even:
 	node/bin/brain-even.js
 
@@ -24,5 +21,8 @@ brain-progression:
 
 brain-prime:
 	node/bin/brain-prime.js
+
+brain-games:
+	node bin/brain-games.js
 
 

@@ -6,7 +6,6 @@ export default (instructionsToUser, generateLogik) => {
   const userName = readlineSync.question('May I have your name?');
   console.log(`Hello, ${userName}`);
 
-  
   const rondsCount = 3;
 
   console.log(`${instructionsToUser}`);

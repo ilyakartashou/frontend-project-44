@@ -2,7 +2,4 @@
 /* eslint-disable no-console, import/extensions */
 import runGames from '../src/games/calc.js';
 
-
-
 runGames();
-

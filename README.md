@@ -8,6 +8,8 @@
 ## Asciinema for brain-calc-game
 [acsiinema]( https://asciinema.org/a/1yHLkWPoDAaBo45EE76VQ5iQz)
 
+[![asciicast](https://asciinema.org/a/FRCOpvpCnfEwgJcOe6hvDtsZu.svg)](https://asciinema.org/a/FRCOpvpCnfEwgJcOe6hvDtsZu)
+
 
 
 

@@ -1,9 +1,10 @@
 /* eslint-disable no-console, import/extensions, no-param-reassign */
 import readlineSync from 'readline-sync';
-import greeting from './cli.js';
 
 export default (instructionsToUser, generateLogik) => {
-  greeting();
+  console.log('Welcome to the Brain Games!');
+  const userName = readlineSync.question('May I have your name?');
+  console.log(`Hello, ${userName}`);
 
   
   const rondsCount = 3;

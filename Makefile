@@ -13,4 +13,7 @@ brain-even:
 publish:
 	npm publish --dry-run
 
+brain-calc:
+	node/bin/brain-calc.js
+
 

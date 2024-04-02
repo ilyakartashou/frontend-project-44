@@ -2,6 +2,12 @@
 [![Actions Status](https://github.com/ilyakartashou/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ilyakartashou/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/22b130fa6c972a03c3f1/maintainability)](https://codeclimate.com/)
 
+## Welcome to the brain-games!
+
+*I wont to present you my first project wich I created all by myself..*
+*I hope you will find my coding uselfull!*
+
+
 ## Asciinema for brain-even-game
 [![asciicast](https://asciinema.org/a/650141.svg)](https://asciinema.org/a/650141)
 

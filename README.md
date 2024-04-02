@@ -7,7 +7,6 @@
 *I wont to present you my first project wich I created all by myself..*
 *I hope you will find my coding uselfull!*
 
-
 ## Asciinema for brain-even-game
 [![asciicast](https://asciinema.org/a/650141.svg)](https://asciinema.org/a/650141)
 

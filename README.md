@@ -7,10 +7,6 @@
 *I wont to present you my first project wich I created all by myself..*
 *I hope you will find my coding uselfull!*
 
-  Launched by the console command **brain-even**.
-  In this game you need to recognize even numbers.
-  If the proposed number is even, answer "yes", otherwise answer "no.
-
 
 ## Asciinema for brain-even-game
 [![asciicast](https://asciinema.org/a/650141.svg)](https://asciinema.org/a/650141)

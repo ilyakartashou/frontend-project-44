@@ -11,6 +11,9 @@
 ## Asciinema for brain-gcd-game
 [![asciicast](https://asciinema.org/a/FRCOpvpCnfEwgJcOe6hvDtsZu.svg)](https://asciinema.org/a/FRCOpvpCnfEwgJcOe6hvDtsZu)
 
+## Asciinema for brain-progression-game
+[![asciicast](https://asciinema.org/a/ojiM1cfv95NKct4ZKcJQCDKwy.svg)](https://asciinema.org/a/ojiM1cfv95NKct4ZKcJQCDKwy)
+
 
 
 

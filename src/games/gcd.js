@@ -1,5 +1,5 @@
-/* eslint-disable no-console, import/extensions */
-import { getRandomInt } from '../utils.js';
+/* eslint-disable no-console, import/extensions, no-param-reassign */
+import getRandomInt from '../utils.js';
 import runGames from '../index.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
@@ -12,7 +12,7 @@ const getMaxDivider = (a, b) => {
       b %= a;
     }
   } return a + b;
-}; 
+};
 
 const generateRound = () => {
   const firstNumber = getRandomInt(2, 15);

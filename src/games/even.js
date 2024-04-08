@@ -1,5 +1,5 @@
 /* eslint-disable no-console, import/extensions, no-param-reassign */
-import { getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 import runGames from '../index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';

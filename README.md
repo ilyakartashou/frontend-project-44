@@ -38,7 +38,7 @@
 **The game accepts numbers as answers.**
 
 ## Asciinema for brain-calc-game
-[![asciicast](https://asciinema.org/a/650290.svg)](https://asciinema.org/a/650290)
+[![asciicast](https://asciinema.org/a/651536.svg)](https://asciinema.org/a/651536)
 
 
 **Launched by the console command ```brain-gcd```.**

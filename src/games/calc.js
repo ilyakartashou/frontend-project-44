@@ -2,7 +2,7 @@
 import { getRandomInt } from '../utils.js';
 import runGames from '../index.js';
 
-const instructionsToUser = 'What is the result of the expression?';
+const rules = 'What is the result of the expression?';
 
 const calc = (firstOperand, secondOperand, operator) => {
   switch (operator) {
@@ -14,7 +14,7 @@ const calc = (firstOperand, secondOperand, operator) => {
       return firstOperand - secondOperand;
   }
 };
-const generateLogik = () => {
+const generateRound = () => {
   const operatorsColl = ['+', '-', '*'];
   const firstOperand = getRandomInt(0, 10);
 
@@ -28,4 +28,4 @@ const generateLogik = () => {
   return [correctAnswer, question];
 };
 
-export default () => runGames(instructionsToUser, generateLogik);
+export default () => runGames(rules, generateRound);

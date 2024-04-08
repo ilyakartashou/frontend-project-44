@@ -7,12 +7,4 @@ export const getRandomInt = (min, max) => {
   return Math.floor(Math.random() * (max - min) + min);
 };
 
-export const getMaxDivider = (a, b) => {
-  while (a !== 0 && b !== 0) {
-    if (a > b) {
-      a %= b;
-    } else {
-      b %= a;
-    }
-  } return a + b;
-};
+

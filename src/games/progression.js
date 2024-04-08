@@ -2,7 +2,7 @@
 import { getRandomInt } from '../utils.js';
 import runGames from '../index.js';
 
-const instructionsToUser = 'What number is missing in the progression?';
+const rules = 'What number is missing in the progression?';
 
 const progressNumbersColl = (firstOperand, secondOperand) => {
   const resultColl = [firstOperand];
@@ -15,7 +15,7 @@ const progressNumbersColl = (firstOperand, secondOperand) => {
   return resultColl;
 };
 
-const generateLogik = () => {
+const generateRound = () => {
   const firstOperand = getRandomInt(0, 5);
   const secondOperand = getRandomInt(1, 5);
   const temp = progressNumbersColl(firstOperand, secondOperand);
@@ -27,4 +27,4 @@ const generateLogik = () => {
   return [correctAnswer, question];
 };
 
-export default () => runGames(instructionsToUser, generateLogik);
+export default () => runGames(rules, generateRound);

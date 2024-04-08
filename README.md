@@ -7,23 +7,16 @@
 ## Install it with ```install```
 
 ## Run 
-```brain-even
+```brain-even```
 ```
-```brain-gcd
+```brain-gcd```
 ```
-```brain-calc
+```brain-calc```
 ```
-```brain-progression
+```brain-progression```
 ```
-```brain-prime
+```brain-prime```
 ```
-## publish
-```brain-even
-```
-
-
-
-
 
 *I wont to present you my first project wich I created all by myself..*
 *I hope you will find my coding uselfull!*

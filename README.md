@@ -46,7 +46,7 @@
 **The game accepts number as answers.**
 
 ## Asciinema for brain-gcd-game
-[![asciicast](https://asciinema.org/a/ojiM1cfv95NKct4ZKcJQCDKwy.svg)](https://asciinema.org/a/ojiM1cfv95NKct4ZKcJQCDKwy)
+[![asciicast](https://asciinema.org/a/650290.svg)](https://asciinema.org/a/650290)
 
 
 **Launched by the console command ```brain-progression```.**

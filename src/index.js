@@ -22,3 +22,4 @@ export default (instructionsToUser, generateLogik) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
+

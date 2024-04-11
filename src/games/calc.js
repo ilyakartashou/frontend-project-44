@@ -1,4 +1,3 @@
-/* eslint-disable no-console, import/extensions */
 import getRandomInt from '../utils.js';
 import runGames from '../index.js';
 
@@ -10,8 +9,10 @@ const calc = (firstOperand, secondOperand, operator) => {
       return firstOperand + secondOperand;
     case '*':
       return firstOperand * secondOperand;
-    default:
+    case '-':
       return firstOperand - secondOperand;
+    default:
+      throw new Error(`Invalid operator - ${operator}`);
   }
 };
 const generateRound = () => {

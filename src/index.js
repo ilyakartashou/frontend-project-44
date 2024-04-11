@@ -1,13 +1,11 @@
-/* eslint-disable no-console, import/extensions, no-param-reassign */
 import readlineSync from 'readline-sync';
+
+const rondsCount = 3;
 
 export default (rules, generateRound) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name?');
   console.log(`Hello, ${userName}`);
-
-  const rondsCount = 3;
-
   console.log(`${rules}`);
   for (let i = 0; i < rondsCount; i += 1) {
     const [correctAnswer, question] = generateRound();

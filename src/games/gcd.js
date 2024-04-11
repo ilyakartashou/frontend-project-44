@@ -1,4 +1,3 @@
-/* eslint-disable no-console, import/extensions, no-param-reassign */
 import getRandomInt from '../utils.js';
 import runGames from '../index.js';
 

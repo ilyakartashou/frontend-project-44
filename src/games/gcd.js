@@ -3,9 +3,9 @@ import runGames from '../index.js';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
-const getMaxDivider = (firstNum, secondNum) => {
-  let a = firstNum;
-  var b = secondNum;
+const getMaxDivider = (first, second) => {
+  let a = first;
+  let b = second;
   while (a !== 0 && b !== 0) {
     if (a > b) {
       a %= b;

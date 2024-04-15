@@ -1,5 +1,5 @@
 import getRandomInt from '../utils.js';
-import runGames from '../index.js';
+import runEvenGames from '../index.js';
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 const isEven = (number) => number % 2 === 0;
@@ -12,4 +12,4 @@ const generateRound = () => {
   return [correctAnswer, question];
 };
 
-export default () => runGames(rules, generateRound);
+export default () => runEvenGames(rules, generateRound);

@@ -1,5 +1,5 @@
 import getRandomInt from '../utils.js';
-import runGames from '../index.js';
+import runCalcGames from '../index.js';
 
 const rules = 'What is the result of the expression?';
 
@@ -29,4 +29,4 @@ const generateRound = () => {
   return [correctAnswer, question];
 };
 
-export default () => runGames(rules, generateRound);
+export default () => runCalcGames(rules, generateRound);

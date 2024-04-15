@@ -3,17 +3,6 @@ import runProgressionGames from '../index.js';
 
 const rules = 'What number is missing in the progression?';
 
-/* const progressNumbersColl = (firstOperand, secondOperand) => {
-  const resultColl = [firstOperand];
-  let sum = firstOperand;
-  const counter = getRandomInt(5, 9);
-  for (let i = 0; i <= counter; i += 1) {
-    sum += secondOperand;
-    resultColl.push(sum);
-  }
-  return resultColl;
-}; */
-
 const generateProgression = (start, step, length) => {
   const progression = [];
   for (let i = 0; i < length; i += 1) {
